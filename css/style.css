@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +7,37 @@
     font-weight: 400;
   }
 
+  .header {
+    padding: 0px 10px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoImg {
+    width: 72px;
+    height: 80px;
+}
+
+h1 {
+    font-size: 40px;
+    width: 800px;
+    line-height: 80px;
+
+}
+
+nav{
+    width: 500px;
+}
+
+h2{
+    margin: 0px 120px;
+}
+
 .cards{
+    margin: 100px 120px;
+    width: 1200px;
     display: flex;
     justify-content: center;
     
@@ -20,5 +51,6 @@
     position: relative;
     
 }
+
 
 
