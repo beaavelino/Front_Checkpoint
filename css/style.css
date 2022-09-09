@@ -46,6 +46,7 @@ nav{
     font-size: 20px;
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .banner{
@@ -102,6 +103,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    border-radius: 12%;
   }
   
   .card {
@@ -110,6 +112,7 @@ p{
     max-width: 280px;
     max-height: 390px;
     box-shadow: 0 40px 60px -6px rgb(150, 148, 148);
+    border-radius: 12%;
   }
   
   /*
@@ -129,6 +132,7 @@ p{
     height: 100%;
     display: block;
     position: relative;
+    border-radius: 12%;
   }
   
   .card-desc {
@@ -141,6 +145,7 @@ p{
     padding: 18px 8%;
     background-color: rgba(0, 0, 0, 0.815);
     transition: 0.8s ease;
+    border-radius: 12%;
   }
   
   .card:hover .card-desc {
