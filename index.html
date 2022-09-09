@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Bahia</title>
 </head>
+
 <body>
     <header class="header">
         <div class="logo">
@@ -19,56 +21,86 @@
             <a href="#video">Vídeo</a>
         </nav>
     </header>
-    
+
     <main>
-        
+
         <img src="./img/banner.jpg" class="banner" id="home">
+
+        <div>
+            <p class="texto-banner">
+                A Bahia é um estado do nordeste brasileiro com paisagens que variam da costa tropical até a aridez do
+                Sertão. A capital, Salvador, é conhecida por seu centro histórico, Pelourinho, com uma rica
+                arquitetura colonial do século XVII e assentado sobre a Baía de Todos-os-Santos.
+            </p>
+        </div>
 
         <div>
             <h2 id="h2">Curiosidades</h2>
         </div>
 
+        <!--  Codigo da outras Cards
         <section class="cards">
-            <div class="singlecard"> 
-                <img src="./img/card-turismo.jpg"> 
-                <p>O Farol da Barra conta com um acervo histórico formado por objetos de diversas épocas, alguns deles 
+            <div class="singlecard">
+                <img src="./img/card-turismo.jpg">
+                <p>O Farol da Barra conta com um acervo histórico formado por objetos de diversas épocas, alguns deles
                     submersos por até 300 anos.</p>
             </div>
 
-            <div class="singlecard"> 
-                <img src="./img/card-comida.jpg"> 
-                <p>O nome Acarajé  provém de um dialeto africano, Ioruba, Akara significa “Bola de Fogo” e Jé significa 
-                    “comer” ou “comida”. Originalmente, o acarajé era uma comida usada em rituais para os orixás.  </p>
+            <div class="singlecard">
+                <img src="./img/card-comida.jpg">
+                <p>O nome Acarajé provém de um dialeto africano, Ioruba, Akara significa “Bola de Fogo” e Jé significa
+                    “comer” ou “comida”. Originalmente, o acarajé era uma comida usada em rituais para os orixás. </p>
             </div>
 
-            <div class="singlecard"> 
-                <img src="./img/card-musica.jpg"> 
+            <div class="singlecard">
+                <img src="./img/card-musica.jpg">
                 <p>O carnaval baiano existe desde o século XVIII.</p>
             </div>
         </section>
+        -->
 
-        <div style="height: 80px"></div>
+        <div class="cards">
+            <div class="card">
+                <!--<h3 class="card-title">Turismo</h3>-->
+                <img src="./img/card-turismo.jpg" alt="">
+                <p class="card-desc">O Farol da Barra conta com um acervo histórico formado por objetos de diversas épocas, alguns deles
+                    submersos por até 300 anos.</p>
+            </div>
+            <div class="card">
+               <!--<h3 class="card-title">Comida</h3>-->
+                <img src="./img/card-comida.jpg" alt="">
+                <p class="card-desc">O nome Acarajé provém de um dialeto africano, Ioruba, Akara significa “Bola de Fogo” e Jé significa
+                    “comer” ou “comida”. Originalmente, o acarajé era uma comida usada em rituais para os orixás.</p>
+            </div>
+            <div class="card">
+                <!--<h3 class="card-title">Música</h3>-->
+                <img src="./img/card-musica.jpg" alt="">
+                <p class="card-desc">O carnaval baiano existe desde o século XVIII.</p>
+            </div>
+        </div>
 
-        <div id="video"> 
-            <iframe width="660" height="415" src="https://www.youtube.com/embed/21cF9un17aA" title="YouTube video player" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
+        <div id="video">
+            <iframe width="660" height="415" src="https://www.youtube.com/embed/21cF9un17aA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
             </iframe>
         </div>
 
-        
 
-        <div> 
+
+        <div>
             <footer>Direitos reservados a Front-End I
-                <a href="https://github.com/Fermqs" target="_blank" >
+                <a href="https://github.com/Fermqs" target="_blank">
                     <img src="img/github.svg" class="icon"></a>
-                <a href="https://www.linkedin.com/in/beatriz-avelino-00/" target="_blank" >
+                <a href="https://www.linkedin.com/in/beatriz-avelino-00/" target="_blank">
                     <img src="img/linkedin.svg" class="icon"></a>
-            
+
             </footer>
         </div>
     </main>
 
-    
+
 </body>
+
 </html>
