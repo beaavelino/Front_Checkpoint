@@ -46,11 +46,10 @@ nav{
     font-size: 20px;
     text-decoration: none;
     color: black;
-    cursor: pointer;
 }
 
 .banner{
-    height: 572px;
+    height: 558.5px;
     z-index: 1;
 }
 
@@ -64,7 +63,8 @@ nav{
 
 h2{
     margin: 0px 90px 0;
-    color: #5c5c5c;
+    color: #000000;
+    font-family: 'Combo', cursive;
 }
 
 /* Codigo da outras Cards
@@ -164,14 +164,16 @@ p{
 }
 
 footer{
-    height: 200px;
-    margin-top: 500px;
+    height: 100px;
+    margin-top: 100px;
     background-color: #c3b199;
     margin: 700px 0 0;
+    justify-content: flex-end;
 }
 
 .icon{
     width: 50px;
     height: 50px;
+
 }
 
